@@ -99,6 +99,7 @@ steps:
     - add new key
     - download the json file
     - copy all of the json content and encode to base64
+      e.g. `cat <path_to_the_json_file> | base64| tr -d '\n' | pbcopy`
     - copy all of the base64 content to env file
     - GOOGLE_SERVICE_KEY="the base64 content"
 
