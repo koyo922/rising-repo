@@ -2,6 +2,7 @@
   "name": "next-template",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "WITH_LOCAL_DATA=true next dev",
     "build-with-local-data": "WITH_LOCAL_DATA=true next build",
